@@ -20,34 +20,28 @@
     <form action="">
         <table cellpadding="10">
             <tr>
-                <td><label for="First Name:">First Name:</label></td>
-                <td>
-                    <input type="text" placeholder="Enter your first name" id="First Name:">
+                <td><label for="First Name:">First Name:</label>
+                    <input type="text" placeholder="Enter your first name" id="First Name:"></td>
+            </tr>
+            <tr>
+                <td><label for="Password:">Password:</label>
+                    <input type="text"  id="Password:"></td>
+            </tr>   
+                <td><label>Gender:</label>
+                <input type="radio" name="gender" id="male"><label for="male">Male  </label>
+                    <input type="radio" name="gender" id="female"><label for="female">Female </label> 
                 </td>
             </tr>
 
             <tr>
-                <td><label for="Password:">Password:</label></td>
-                <td>
-                    <input type="text" id="Password:">
-                </td>
-            </tr>
-
-            <tr>
-                <td><label>Gender:</label></td>
-                <td><input type="radio" name="gender" id="male"><label for="male">Male  </label>
-                    <input type="radio" name="gender" id="female"><label for="female">Female </label> </td>   
-            </tr>
-
-            <tr>
-                <td><label for="Subscribe to Newsletter:">Subscribe to Newsletter:</label></td>
-                <td>
+                <td><label for="Subscribe to Newsletter:">Subscribe to Newsletter:</label>
+               
                     <input type="checkbox" checked id="Subscribe to Newsletter:">
                 </td>
             </tr>
             <tr>
-                <td><label for="State:">State:</label></td>
-                <td>
+                <td><label for="State:">State:</label>
+                
                     <select name="State" id="State:">
                     <option value="Select your state" selected disabled>Select your state </option>
                     <option value="Gujarat">Gujarat</option>
@@ -65,30 +59,26 @@
             </tr>
 
             <tr>
-                <td><label for="Upload Resume:">Upload Resume:</label></td>
-               
+                <td><label for="Upload Resume:">Upload Resume:</label>
+                       <input type="file" id="Upload Resume:"></td>
             </tr>
-                <td><input type="file" id="Upload Resume:"></td>
+
             <tr>
                 <td>
                     <label for="Address:">Address:</label>
-                </td> 
-                <td>
                     <textarea name="Address" id="Address:" cols="30" rows="5"></textarea>
                 </td>
                         
             </tr> 
 
             <tr>
-                <td><label for="Date of Birth:">Date of Birth:</label></td>
-                <td>
+                <td><label for="Date of Birth:">Date of Birth:</label>
                     <input type="date" name="date" id="Date of Birth:">
                 </td>
             </tr>
 
             <tr align="left">
-                <td><label for="Preferred Interview Time:">Preferred Interview Time:</label></td>
-                <td>
+                <td><label for="Preferred Interview Time:">Preferred Interview Time:</label>
                     <input type="time" id="Preferred Interview Time:">
                 </td>
             </tr>
@@ -96,13 +86,11 @@
             <tr align="left">
                 <td>
                     <label for="Marks:">Marks:</label>
-                </td>
-                <td><input type="text" name="marks" id="Marks:"></td>
+                <input type="text" name="marks" id="Marks:"></td>
             </tr>
 
             <tr>
-                <td align="left"><button type="submit">Submit</button></td>
-                <td align="left"><button type="reset">Reset</button></td>
+                <td align="left"><button type="submit">Submit</button align="right"><button type="reset">Reset</button></td>
             </tr>
             
         </table>
