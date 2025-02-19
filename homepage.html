@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            background-image: url('./background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #4b2e83;
+            font-family: 'Verdana', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .namaste {
+            position: relative;
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+    
+        }
+
+        .namaste img {
+            border-radius: 50%;
+            border: 4px solid #ff704d;
+            margin-bottom: 15px;
+        }
+
+        .namaste h1 {
+            font-size: 3em;
+            font-weight: bold;
+            color: #d35400;
+        }
+
+        .namaste b {
+            font-size: 1.2em;
+            color: #16a085;
+        }
+
+        
+        .link {
+            background:  #437bfe;
+            padding: 10px 0;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            margin: 0 25px;
+        }
+        
+
+        .content {
+            margin-top: 50px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .summary {
+            width: 70%;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            margin: auto; 
+            text-align: center; 
+            img {
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        }
+
+        .summary img:hover {
+            transform: scale(0.9); 
+        }
+
+       
+
+        .content img {
+            border-radius: 10px;
+            border: 5px solid #ff704d;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 10px 2px #ff704d;
+        }
+
+        blockquote {
+            font-style: italic;
+            border-left: 5px solid #ff704d;
+            padding-left: 15px;
+            margin: 20px auto;
+            width: 70%;
+        }
+
+        blockquote img {
+            border-radius: 10px;
+            border: 5px solid #ff704d;
+        }
+
+        mark {
+            background-color: #f39c12;
+            padding: 0 5px;
+            color: #fff;
+        }
+
+        
+        .highlights {
+            text-align: center;
+            margin: 20px auto;
+            
+        }
+
+        .highlights ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .highlights li {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            text-align: left;
+            margin-left: 20%;
+        }
+
+        .contact-us {
+            background: #1a3779;
+            padding: 30px;
+            margin-top: 50px;
+            text-align: center;
+            width: 500px;
+            height: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 15px;
+            color: #fff;
+            box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-us h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .contact-us p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+       
+        .contact-us a {
+            float: left; 
+            color:#1a3779;
+            font-weight: bold;
+            font-size: 1.5em;
+            text-decoration: none;
+            background: #f39d12fc;
+            padding: 10px 15px;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+            width: max-content;
+            position: relative; 
+        }
+
+       
+        .contact-us a:hover {
+            text-decoration: underline;
+            color: #fff;
+            transform: scale(1.05); 
+        }
+
+
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 10px solid #ff704d;
+        }
+
+        footer h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #f39c12;
+        }
+
+        footer p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            
+        }
+        .video-container {
+            margin-top: 10%;
+            text-align: center;
+            margin: 20px 0;
+            background-color:rgba(255, 255, 255, 0.8) ;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 400;
+            font-size: xx-large;
+            color:#1a3779;
+
+            img{
+                border-radius: 20%;
+                margin-top: 1%;
+            }
+
+        }
+
+        video {
+            width: 1200px;
+            border-radius: 10px;
+            border: 5px solid #16a085;
+            margin-top: 3%;
+            margin-bottom: 5%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="namaste">
+           
+            <img src="./copynamasteindia.jpg" alt="Namaste India" height="20%" width="20%">
+            <h1>Welcome to Incredible India</h1>
+            <b>Discover the diversity, beauty, and rich heritage of India!</b>
+        </div>
+
+    
+        <div class="link">
+            <a href="./homepage.html">Home</a>
+            <a href="./culturepage.html">Culture</a>
+            <a href="./landmarkpage.html">Landmark</a>
+            <a href="./cuisinepage.html">Cuisine</a>
+            <a href="./contactpage.html">Contact Us</a>
+        </div>
+
+        <div class="video-container">
+            <marquee behavior="scroll" direction="left" scrollamount="infinite">
+            <img src="./flaglogo.jpg" height="20px" width="20px"> Incredible India <img src="./flaglogo.jpg" alt=""   height="20px" width="20px">
+            </marquee>
+            <video controls muted>
+                <source src="./India-360-v2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="content">
+           
+            <div class="summary">
+                <h2>About India</h2>
+                <p>India is a land of incredible diversity. From the snow-capped peaks of the <i>Himalayas</i> to the serene backwaters of Kerala, every corner of India tells a unique story. India is the <b>second-most populous country</b> in the world and boasts a history spanning thousands of years. Its rich traditions have left an incredible mark on the world.</p>
+
+                <blockquote>
+                    <img src="./Images/india_map.jpg" height="300" width="500" alt="India Map">
+                    <br>India: A land of Cultural and geographical diversity
+                    <br><br>"Unity in diversity is not just a slogan in India but a way of life."
+                </blockquote>
+
+                <h2>Highlights of India</h2>
+                <div class="highlights">
+                    <ul>
+                        <li><b>Architecture:</b> Majestic monuments like the Taj Mahal and Red Fort.</li>
+                        <li><b>Cuisine:</b> Diverse flavors from spicy curries to sweet desserts.</li>
+                        <li><b>Culture:</b> Vibrant festivals, classical dances, and colorful attire.</li>
+                    </ul>
+                </div>
+
+                <h2>Famous Landmarks</h2>
+                <p>India is home to <mark>29 UNESCO World Heritage Sites</mark>, making it a paradise for history and architecture enthusiasts.</p>
+
+                <blockquote>
+                    <img src="./Images/tajmahal.jpg" height="300" width="500" alt="Taj Mahal">
+                    <br>The Taj Mahal, a symbol of eternal love
+                </blockquote>
+
+                <blockquote>
+                    <img src="./Images/qutubminar.jpg" height="300" width="500" alt="Qutub Minar">
+                    <br>The Qutub Minar, an architectural marvel in Delhi
+                </blockquote>
+            </div>
+        </div>
+
+      
+        <div class="contact-us">
+            <h3>Contact Us</h3>
+            <p>Have questions? Reach out to us anytime! We're here to assist you.</p>
+            <a href="mailto:info@incredibleindia.com">info@incredibleindia.com</a>
+        </div>
+
+      
+        <footer>
+            <h3>Stay Connected</h3>
+            <p>Follow our social channels for the latest news, updates, and more amazing content from Incredible India.</p>
+            <p>&copy; 2025 Incredible India. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

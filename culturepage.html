@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incredible Indian Culture</title>
+    <style>
+        body {
+            background-image: url('./border.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #231c30;
+            font-family: 'Verdana', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            margin-top: 5%;
+            margin-left: 8%;
+            width: 80%;
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(139, 69, 19, 0.503);
+            border-radius: 10px;
+            border: 4px solid #8B4513;
+        }
+
+        .header img {
+            border-radius: 50%;
+            border: 4px solid rgba(139, 69, 19, 0.8);
+            margin-bottom: 15px;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            font-weight: bold;
+            color: #452108f4;
+        }
+
+        .link {
+            margin-top: 2px;
+            background: #8B4513;
+            padding: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fcb786;
+            font-weight: bold;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            margin: 0 25px;
+        }
+
+        .content {
+            margin-top: 1px;
+            padding: 20px;
+        }
+
+       
+        .summary {
+            width: 80%;
+            margin: 3px auto;
+            padding: 20px;
+            background:#ffb84d6e;
+            border-radius: 15px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            border: 3px solid #d280287e;
+            text-align: center;
+            img {
+            transition: transform 0.3s ease-in-out;
+           
+        }
+        
+        }
+
+        
+        .summary img:hover {
+            transform: scale(0.9); 
+        }
+
+
+        .summary h2 {
+            font-family: 'Georgia', serif;
+            font-size: 2.5em;
+            color: #8b4513;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+
+        .summary ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.3em;
+            color: #4e3629;
+            font-family: 'Merriweather', serif;
+        }
+
+        .summary ul li {
+            margin-bottom: 12px;
+            padding: 8px;
+        }
+
+        blockquote {
+            font-style: italic;
+            border-left: 2px solid #ff6f00;
+            padding-left: 5px;
+            margin: 2px auto;
+            width: 40%;
+        }
+
+        blockquote img {
+            border-radius: 10px;
+            border: 5px solid #d27f28;
+            box-shadow: 0px 0px 10px 10px #d280287e;
+       
+        }
+
+       
+        table {
+            width: 80%;
+            margin: auto;
+            background-color: #fbc02d;
+            border-radius: 8px;
+            box-shadow: 0px 0px 12px 5px #d27f28;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 15px;
+            border: 2px solid #ff6f00;
+        }
+
+        th {
+            background-color:#d27f28;
+            color: white;
+            font-size: 1.3em;
+        }
+
+        td {
+            font-size: 1.2em;
+        }
+
+       
+        details {
+            background-color: #ffeb9982;
+            padding: 15px;
+            margin-top: 13px;
+            border-radius: 8px;
+            border: 3px solid #ff6f00;
+            font-size: 1.3em;
+            color: #7a3e2b;
+            font-weight: bold;
+        }
+
+       
+        .contact-us {
+            background:#7a3e2b;
+            padding: 30px;
+            margin-top: 50px;
+            text-align: center;
+            width: 500px;
+            height: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 15px;
+            color: #fff;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+            border: 3px solid #d27f28;
+        }
+
+        .contact-us a {
+            float:left;
+            color: #ffd54f;
+            font-weight: bold;
+            font-size: 1.5em;
+            text-decoration: none;
+            text-transform: uppercase;
+            background:#4e3629;
+            padding: 10px 15px;
+            border-radius: 8px;
+            transition: 0.3s ease-in-out, color 0.3s ease-in-out;
+            position: relative;
+            margin-left: 4.5%;
+        }
+
+
+        .contact-us h3 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #ffcc00;
+        }
+
+        .contact-us p {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .contact-us a:hover {
+            text-decoration: underline;
+            color: #fff;
+            transform: scale(1.05);
+        }
+
+       
+        footer {
+            background: #d32f2f;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 5px solid #ff704d;
+        
+        }
+
+        footer h3 {
+            font-family: 'Georgia', serif;
+            color: #ffeb3b;
+            margin-bottom: 10px;
+        }
+
+        footer p {
+            font-size: 1.2em;
+        }
+
+        marquee{
+            font-size: larger;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: #8B4513;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="./copynamasteindia.jpg" alt="Namaste India" height="20%" width="20%">
+        <h1>Welcome to A Glimpse into India's Rich Culture</h1>
+        <b>Experience the traditions, festivals, and heritage of India</b>
+    </div>
+
+    <div class="link">
+            <a href="./homepage.html">Home</a>
+            <a href="./culturepage.html">Culture</a>
+            <a href="./landmarkpage.html">Landmark</a>
+            <a href="./cuisinepage.html">Cuisine</a>
+            <a href="./contactpage.html">Contact Us</a>
+    </div>
+
+    <div style="background-color: #d2802865;">  
+        <img src="./WhatsApp people culture.jpg" alt="" x width="55%">
+    </div>
+    
+    <marquee behavior="scroll" direction="left" scrollamount="infinite">
+        <img src="./flaglogo.jpg" alt=""   height="20px" width="20px"> Incredible India <img src="./flaglogo.jpg" alt=""   height="20px" width="20px">
+    </marquee>
+
+    <div class="extraimg">
+        <img src="./arts-in-india.png" alt="Indian Arts" style="border-radius: 10px; border: 2px solid #d27f28; margin-top: 25px; box-shadow: 0px 0px 25px 5px #8b4513;">
+    </div>
+    
+  
+
+    <div class="content">
+        <div class="summary">
+            <h2>Festivals of India</h2>
+            <ul>
+                <li><b>Diwali:</b> Festival of Lights</li>
+                <li><b>Holi:</b> Festival of Colors</li>
+                <li><b>Eid:</b> Festival of Harmony</li>
+                <li><b>Christmas:</b> Festival of Joy</li>
+            </ul>
+
+            <blockquote>
+                <img src="./Images/diwali.jpg" height="300" width="400" alt="Diwali">
+                <br><div style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: large; color:#8b4513;"> Diwali - The Festival of Lights</div>
+               
+            </blockquote>
+
+            <h2>Languages of India</h2>
+            <table cellspacing="0">
+                <tr><th>Language</th><th>Region</th></tr>
+                <tr><td>Hindi</td><td>North India</td></tr>
+                <tr><td>Bengali</td><td>West Bengal</td></tr>
+                <tr><td>Tamil</td><td>Tamil Nadu</td></tr>
+                <tr><td>Telugu</td><td>Andhra Pradesh</td></tr>
+            </table>
+
+            <details>
+                <summary><b>Fun Fact</b></summary>
+                India is home to the world's oldest living languages.
+            </details>
+
+            <h2>Traditional Attire</h2>
+            <ul>
+                <li><b>Saree:</b> Elegant drape worn by women.</li>
+                <li><b>Kurta-Pajama:</b> Traditional wear for men.</li>
+                <li><b>Lehenga:</b> A festive outfit for women.</li>
+                <li><b>Dhoti:</b> Traditional men's wear.</li>
+            </ul>
+
+            <blockquote>
+                <img src="./Images/saree.jpg" alt="Saree" height="300" width="400">
+                <br><div style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: large; color:#8b4513;">Traditional Saree - Grace and Elegance</div>
+            </blockquote>
+        </div>
+    </div>
+
+    <div class="contact-us">
+        <h3>Contact Us</h3>
+        <p>Have questions or need more information? Feel free to reach out!</p>
+        <a href="mailto:info@incredibleindia.com">info@incredibleindia.com</a>
+    </div>
+    
+    <footer>
+        <h3>Stay Connected</h3>
+        <p>Follow us on our journey to explore the incredible beauty of India.</p>
+        <p>&copy; 2025 Incredible India. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
